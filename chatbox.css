@@ -82,3 +82,41 @@ body {
 #chatButton:hover {
   background-color: #c88245;
 }
+.chat-footer {
+  padding: 0 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center; 
+}
+
+.chat-footer input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px; 
+}
+
+.chat-footer button {
+  padding: 8px 10px;
+  border: none;
+  background-color: #c88245;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 5px; 
+}
+
+@media (max-width: 400px) {
+  .chat-footer {
+    padding: 0 5px; 
+  }
+
+  .chat-footer input[type="text"],
+  .chat-footer button {
+    flex: 1 0 100%; 
+    margin-right: 0; 
+  }
+}

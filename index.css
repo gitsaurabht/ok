@@ -137,14 +137,6 @@ label.logo {
 }
 ul {
     transition: left 0.5s ease-in-out; 
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #fc8e00 !important;
-    border-radius: 0 0 146px 0;
-    top: -55px;
-    left: -100%;
-    text-align: center;
 }
 
 
@@ -444,6 +436,10 @@ p {
         position: absolute;
         top: 0px; 
         right: 20px;
+    }
+    .chat-footer input[type="text"]{
+        padding: 0px;
+        flex-direction: left;
     }
     .centered-container{
         margin-top: 0px;
